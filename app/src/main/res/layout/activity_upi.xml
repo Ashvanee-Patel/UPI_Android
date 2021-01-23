@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDc"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UpiActivity">
+
+    <EditText
+        android:id="@+id/amountEtUpi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:textSize="19sp"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/upiIdEtUpi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UPI ID"
+        android:textSize="19sp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:id="@+id/nameEtUpi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="19sp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:id="@+id/noteEtUpi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note"
+        android:textSize="19sp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:id="@+id/sendBtnUpi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>
