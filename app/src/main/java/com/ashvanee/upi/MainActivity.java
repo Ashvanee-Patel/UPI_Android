@@ -23,5 +23,9 @@ Context context = MainActivity.this;
             startActivity(new Intent(context, UpiActivity.class));
             finish();
         });
+        binding.paytmBtn.setOnClickListener(view -> {
+            startActivity(new Intent(context, PaytmActivity.class));
+            finish();
+        });
     }
 }
