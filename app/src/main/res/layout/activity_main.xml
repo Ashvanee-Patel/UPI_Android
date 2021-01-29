@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chose Which method you want to do apply"
-        android:textSize="25sp"
+        android:textSize="19sp"
         android:textColor="@color/black"
         />
     <Button
@@ -28,6 +28,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Paytm"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create your invoice"
+        android:textSize="19sp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/invoiceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
         />
 
 </LinearLayout>

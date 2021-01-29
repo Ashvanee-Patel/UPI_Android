@@ -27,5 +27,10 @@ Context context = MainActivity.this;
             startActivity(new Intent(context, PaytmActivity.class));
             finish();
         });
+        binding.invoiceBtn.setOnClickListener(view -> {
+            startActivity(new Intent(context, PdfActivity.class));
+            finish();
+                }
+        );
     }
 }
